@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: violet;
+}
+
+.fire-btn {
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 32px;
+    border: none;
+    cursor: pointer;
+}
