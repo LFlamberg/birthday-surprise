@@ -26,14 +26,14 @@ fireBtn.addEventListener("click", () => {
             spread: 500,
             startVelocity: 100,
             particleCount: particleCount,
-            origin: { x: 0.2, y: 0.1 },
+            origin: { x: 0.2, y: 0.0 },
         });
 
         confetti({
             spread: 500,
             startVelocity: 100,
             particleCount: particleCount,
-            origin: { x: 0.8, y: 0.1 },
+            origin: { x: 0.8, y: 0.0 },
         });
     }, 250);
     setTimeout(() => {
@@ -41,3 +41,4 @@ fireBtn.addEventListener("click", () => {
     }, 12000);
 
 });
+
