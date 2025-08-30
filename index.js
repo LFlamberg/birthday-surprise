@@ -23,20 +23,21 @@ fireBtn.addEventListener("click", () => {
         const particleCount = 50 * (timeLeft / duration);
 
         confetti({
-            spread: 360,
-            startVelocity: 30,
+            spread: 500,
+            startVelocity: 100,
             particleCount: particleCount,
-            origin: { x: 0.2, y: 0.3 },
+            origin: { x: 0.2, y: 0.1 },
         });
 
         confetti({
-            spread: 360,
-            startVelocity: 30,
+            spread: 500,
+            startVelocity: 100,
             particleCount: particleCount,
-            origin: { x: 0.8, y: 0.3 },
+            origin: { x: 0.8, y: 0.1 },
         });
     }, 250);
     setTimeout(() => {
         alert("🎉 Happy 23rd birthday! ");
     }, 12000);
+
 });
